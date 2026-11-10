@@ -1,16 +1,53 @@
-# bus_tracker
+🚌 Bus Tracker
 
-A new Flutter project.
+A Flutter mobile app for tracking buses in real time, built for bus conductors and commuters.
 
-## Getting Started
+Show Image Show Image Show Image
 
-This project is a starting point for a Flutter application.
+📱 Screenshots
+Screen 1	Screen 2	Screen 3
+<img src="Details.png" width="220"/>	<img src="Login.png" width="220"/>	<img src="Main.png" width="220"/>
+Add caption	Add caption	Add caption
+✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+📍 Live bus location tracking
+🧑‍✈️ Conductor view for managing a trip
+🕒 Trip and route information
+📲 Clean, simple mobile UI
+🛠️ Tech Stack
+Technology	Purpose
+Flutter	Cross-platform mobile UI
+Dart	Programming language
+Add more	e.g. Firebase, Google Maps, GetX, Provider
+🚀 Getting Started
+Prerequisites
+Flutter SDK
+Android Studio or VS Code with the Flutter extension
+An emulator or a physical device
+Run locally
+bash
+# Clone the repository
+git clone https://github.com/sherledge/bus_tracker.git
+cd bus_tracker
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Install dependencies
+flutter pub get
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Run the app
+flutter run
+Build an APK
+bash
+flutter build apk --release
+
+
+📂 Project Structure
+lib/        # App source code
+assets/     # Images and other static assets
+android/    # Android platform code
+ios/        # iOS platform code
+test/       # Tests
+
+
+👤 Author
+
+Shabeer
